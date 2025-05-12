@@ -2,10 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="/assets/style.css" />
   </head>
   <body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div id="buttons">
+      <button data-choice="rock">Rock</button>
+      <button data-choice="paper">Paper</button>
+      <button data-choice="scissors">Scissors</button>
+    </div>
+
+    <div id="results">
+      <p id="round-result"></p>
+      <p id="score">Score — You: 0, Computer: 0</p>
+      <p id="game-winner"></p>
+    </div>
+
     <script src="./assets/script.js"></script>
   </body>
 </html>
